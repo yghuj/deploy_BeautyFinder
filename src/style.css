@@ -1,0 +1,93 @@
+
+/* Header Styling */
+.header {
+  background-color: #d8c7ff; /* Slightly darker pastel purple */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header a {
+  color: #5a4eae; /* Deep pastel purple */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.header a:hover {
+  color: #332877; /* Slightly darker shade on hover */
+}
+
+.logo {
+  height: 60px;
+}
+
+
+  /* Footer Line */
+#footer-line {
+  border: 0;
+  height: 2px;
+  background: #a39adb;
+  margin: 20px 0;
+}
+
+.footer-container {
+  background-color: #d8c7ff; /* Same as header */
+  padding: 20px;
+  color: #5a4eae;
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Ensure it takes full width */
+}
+.footer-column{
+  flex: 1;
+  margin: 20px;
+  min-width: 200px;
+}
+#title-footer{
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: #7c6ed4;
+}
+
+.footer-column a{
+  color: #5a4eae;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+  transition: color 0.3s;
+  font-size: 15px;
+}
+
+.footer-column a:hover {
+  color: #332877
+}
+
+#mail{
+  padding: 10px;
+  border: 1px solid #c3b7e8;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 80%
+}
+#footersentences{
+  color: #8175cf;
+}
+
+.sub-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #8571c4; 
+  color: white; 
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sub-btn:hover {
+  background-color: #6d5ba3; 
+}

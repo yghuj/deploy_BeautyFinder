@@ -1,0 +1,148 @@
+body {
+    background-color: #f5f3ff; 
+    color: #333; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#demo {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+
+.product {
+    background-color: #f5f3ff; 
+    border: 1px solid #c3b7e8; 
+    border-radius: 15px; 
+    padding: 15px;
+    width: 300px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); 
+}
+
+.product h3 {
+    color: #332877; 
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+.product img {
+    border-radius: 10px; 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 0.9em;
+    color: #555; 
+    text-align: justify;
+}
+
+.product a {
+    color: #5a4eae; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.product a:hover {
+    color: #332877; 
+}
+
+button {
+    background-color: #a39adb; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    margin-top: auto;
+    font-size: 0.9em;
+    transition: background-color 0.3s, transform 0.2s;
+    outline: none;
+}
+
+
+button:hover {
+    background-color: #8571c4; 
+}
+
+button:active {
+    transform: scale(0.95); 
+}
+.product button {
+    width: 100%; 
+}
+
+
+label, input[type="number"], .filter-button {
+    display: inline-block;
+    margin: 5px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border-radius: 15px; 
+    border: 1px solid #c3b7e8; 
+    background-color: #fdfdff;
+    outline: none;
+    width: 100px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+input[type="number"]:focus {
+    border-color: #8571c4;
+    box-shadow: 0px 0px 8px rgba(133, 113, 196, 0.3); 
+}
+
+.filter-button {
+    background-color: #a39adb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s, transform 0.2s;
+    outline: none;
+}
+
+.filter-button:hover {
+    background-color: #8571c4;
+}
+
+.filter-button:active {
+    transform: scale(0.95);
+}
+
+.filter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#homie-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #8571c4; 
+    color: white; 
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#homie-btn:hover{
+    background-color: #6d5ba3; 
+}
